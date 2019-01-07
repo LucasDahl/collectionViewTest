@@ -11,7 +11,7 @@ import UIKit
 
 class vcTwo: UIViewController {
     
-    
+    // Dismiss the vc
     @IBAction func dismissTapped(_ sender: UIButton) {
         
         dismiss(animated: true, completion: nil)
