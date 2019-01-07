@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    // The array to populate the cells(works both for the image and for the vc id)
+    // The array to populate the cells(works both for the image and for the viewController id)
     var arrayImages = [String]()
 
     override func viewDidLoad() {
