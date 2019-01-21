@@ -18,4 +18,9 @@ class vcOne: UIViewController {
         
     }
     
+    // Used to make sure there are no retain cycles
+    deinit {
+        print("Reclaim")
+    }
+    
 }
